@@ -22,7 +22,7 @@ Two types of visualizations were generated for this exericse.
 Line graphs were used to show:
 
 (a) all cryptocurrencies and their percent change values; 
-![Cryptocurrencies](../Output/one_df_market_data_line_graph.png)
+![Cryptocurrencies](Output/one_df_market_data_line_graph.png)
 
 (b) an Elbow Curve [EC] for the scaled data;
 
