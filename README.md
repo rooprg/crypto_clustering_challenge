@@ -25,26 +25,25 @@ Line graphs were used to show:
 ![Cryptocurrencies](Output/one_df_market_data_line_graph.png)
 
 (b) an Elbow Curve [EC] for the scaled data;
-
+![Scaled Data](Output/two_original_data_elbow_curve.png)
 
 (c) EC of data after PCA
-
+![PCA Data](Output/four_pca_data_elbow_curve.png)
 
 (d) a composite EC showing EC for (b) and (c) above.
-
+![EC Composite](Output/six_elbow_curve_comparison.png)
 
 
 Scatter plots were used to:
 
 (e) Clusters for Price Change Percentage at 24 hours versus 7 days
+![24 v. 7 Clusters](Output/three_df_market_data_scaled_predictions_scatter_plot.png)
 
-
-(f) Optimized Cluster after PCA completed
-
+(f) Optimized Clusters after PCA completed
+![Optimized Clusters](Output/five_crypto_clusters_scatter_plot.png)
 
 (g) a composite of (e) and (f) above
-
-
+![Clusters Side by Side](Output/seven_cluster_comparison.png)
 
 
 
