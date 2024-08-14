@@ -2,22 +2,50 @@
 
 **(1) Project Overview and Purpose: **
 
-(Provide a brief introduction to the project, explaining its purpose and what the project aims to achieve)
+The purpose of this exercise is to use Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. First, original data from a .csv file was used for ascertaining the best k value (visualized on an Elbow Curve) and plotting clusters on Scatter Plots via K-Means. Secondly, Principal Component Analysis (PCA) was used to optimize the clusters, then finding the best k value (visualized on an Elbow Curve) and plotting clusters on Scatter Plots via K-Means for transformed data. Lastly, the first and second parts were visualized in tandem and compared.
 
 
 **(2) Dataset Description:** 
 
-(Describe the dataset used in the project, including the source of the data, the number of records, and any relevant information about the data.)
+The dataset includes various crytocurrencies and multiple values for price change percentage at 24 hours, 7 days, 14 days, 30 days, 60 days, 200 days, 1 year, respectively. Data is stored in a .csv file, stored in the Resources folder.
 
 
 **(3) Data Cleaning and Preprocessing:**
 
-(Explain the steps taken to clean and preprocess the data before visualization. This could include handling missing values, removing duplicates, and transforming data.)
+The data in this dataset did not required dropping any rows for missing or incomplete data. Data was normalized with the StandardScalar module to make the modified DataFrame (named "market_data_scaled"). A Principal Component Analysis [PCA] model was used later in the exercise.
 
 
 **(4) Data Visualization Techniques:**
 
-(Detail the data visualization techniques used in the project, such as bar charts, line graphs, scatter plots, etc. Explain why these techniques were chosen and how they help in understanding the data.)
+Two types of visualizations were generated for this exericse. 
+
+Line graphs were used to show:
+
+(a) all cryptocurrencies and their percent change values; 
+![Cryptocurrencies](../Output/one_df_market_data_line_graph.png)
+
+(b) an Elbow Curve [EC] for the scaled data;
+
+
+(c) EC of data after PCA
+
+
+(d) a composite EC showing EC for (b) and (c) above.
+
+
+
+Scatter plots were used to:
+
+(e) Clusters for Price Change Percentage at 24 hours versus 7 days
+
+
+(f) Optimized Cluster after PCA completed
+
+
+(g) a composite of (e) and (f) above
+
+
+
 
 
 **(5) Results and Analysis:**
