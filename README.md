@@ -55,7 +55,29 @@ Two types of visualizations were generated for this exericse.
 
 **(5) Results and Analysis:**
 
-(Present the insights gained from the data visualization. Describe any patterns, trends, or relationships discovered in the data.)
+This exercise allows for answers to the following questions:
+
+(a) After scaling the original dataset, what is the best value for k, including using an EC for visualization? 
+
+Four (4) appears to be the best value for k.
+
+(b) After optimizing the Clusters using PCA, what is the total explained variance of the three principal components? 
+
+Approximately 89.5% is the total explained variance.
+
+(c) 
+
+(i) When using the PCA data, what is the best value for k? 
+
+The best value for k is 4 for the PCA data.
+
+(ii) Does it differ from the best k value found using the original data? 
+
+No, they are both 4.
+
+(d) After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means? 
+
+The impact of using fewer features to cluster the data (using K-Means) is that a more distinct and tighter area on the plot for a majority of the points plotted at or near the origin (0, 0). Regardless of the features used, there are still plotted plots that are quite distant and thus, need to be considered as clusters (along with other plotted points). Setting k to 4 (k=4) seems justified as a result of this Cluster Comparison.
 
 
 **(6) Ethical Considerations:**
