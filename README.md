@@ -1,4 +1,4 @@
-**Cryptocurrency Clustering Challenge**
+**CRYPTOCURRENCY CLUSTERING CHALLENGE**
 
 **(1) Project Overview and Purpose:**
 
