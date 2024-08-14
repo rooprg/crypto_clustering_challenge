@@ -33,7 +33,7 @@ Two types of visualizations were generated for this exericse.
 
 ![PCA Data](Output/four_pca_data_elbow_curve.png)
 
-(iv) a composite EC showing EC for (b) and (c) above-
+(iv) a composite EC showing EC for (ii) and (iii) above-
 
 ![EC Composite](Output/six_elbow_curve_comparison.png)
 
@@ -48,7 +48,7 @@ Two types of visualizations were generated for this exericse.
 
 ![Optimized Clusters](Output/five_crypto_clusters_scatter_plot.png)
 
-(iii) a composite of (e) and (f) above-
+(iii) a composite of (i) and (ii) above-
 ![Clusters Side by Side](Output/seven_cluster_comparison.png)
 
 
@@ -60,22 +60,30 @@ Two types of visualizations were generated for this exericse.
 
 **(6) Ethical Considerations:**
 
-(Discuss any ethical considerations taken into account during the project, such as data privacy, bias, or fairness.)
+There don't seem to be any ethical considerations with this dataset as its presented. Cryptocurrency information is available online and percent change calculations can be performed on publically available data.
 
 
 **(7) Instructions for Interacting with the Project:**
 
-(Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations.)
+(a) Python code is stored in the main folder as "crypto_clustering_roop.ipynb"
+
+(b) Dataset is stored in the Resources folder as "crypto_market_data.csv"
+
+(c) Visualizations are stored in the Output folder, with individual file names
 
 
 **(8) Citations:**
 
-(Include references to the data sources used, any external libraries or tools utilized, and any other resources that contributed to the project.)
+(a) Details on hover_cols at https://discourse.holoviz.org/t/add-an-extra-field-when-hovering-in-hvplot-scatter/2331/2
 
+(b) Composite plots at https://hvplot.holoviz.org/user_guide/Plotting.html
 
-**(9) Future Work:**
+(c) Xpert Learning Assistant provide feedback on:
 
-(Suggest potential future work or improvements that could be made to the project, such as additional analyses or visualizations.)
+(i) Code syntax
+
+(ii) Composite plots
+
 
 
 
