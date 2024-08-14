@@ -19,30 +19,36 @@ The data in this dataset did not required dropping any rows for missing or incom
 
 Two types of visualizations were generated for this exericse. 
 
-Line graphs were used to show:
+(a) Line graphs were used to show:
 
-(a) all cryptocurrencies and their percent change values; 
+(i) all cryptocurrencies and their percent change values-
+
 ![Cryptocurrencies](Output/one_df_market_data_line_graph.png)
 
-(b) an Elbow Curve [EC] for the scaled data;
+(ii) an Elbow Curve [EC] for the scaled data-
+
 ![Scaled Data](Output/two_original_data_elbow_curve.png)
 
-(c) EC of data after PCA
+(iii) EC of data after PCA-
+
 ![PCA Data](Output/four_pca_data_elbow_curve.png)
 
-(d) a composite EC showing EC for (b) and (c) above.
+(iv) a composite EC showing EC for (b) and (c) above-
+
 ![EC Composite](Output/six_elbow_curve_comparison.png)
 
 
-Scatter plots were used to:
+(b) Scatter plots were used to:
 
-(e) Clusters for Price Change Percentage at 24 hours versus 7 days
+(i) Clusters for Price Change Percentage at 24 hours versus 7 days-
+
 ![24 v. 7 Clusters](Output/three_df_market_data_scaled_predictions_scatter_plot.png)
 
-(f) Optimized Clusters after PCA completed
+(ii) Optimized Clusters after PCA completed-
+
 ![Optimized Clusters](Output/five_crypto_clusters_scatter_plot.png)
 
-(g) a composite of (e) and (f) above
+(iii) a composite of (e) and (f) above-
 ![Clusters Side by Side](Output/seven_cluster_comparison.png)
 
 
