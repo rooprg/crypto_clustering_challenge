@@ -1,6 +1,6 @@
 **Cryptocurrency Clustering Challenge**
 
-**(1) Project Overview and Purpose: **
+**(1) Project Overview and Purpose:**
 
 The purpose of this exercise is to use Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. First, original data from a .csv file was used for ascertaining the best k value (visualized on an Elbow Curve) and plotting clusters on Scatter Plots via K-Means. Secondly, Principal Component Analysis (PCA) was used to optimize the clusters, then finding the best k value (visualized on an Elbow Curve) and plotting clusters on Scatter Plots via K-Means for transformed data. Lastly, the first and second parts were visualized in tandem and compared.
 
